@@ -1,13 +1,25 @@
-
-
+/* OUR VISION SECTION*/
 .ourVision {
-  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
   width: auto;
-  height: auto;
+  height: 800px;
 }
 
-#ourVisionTitle {
-  position: absolute;
+.ourVisionContainerText {
+  display: flex;
+  flex-flow: column;
+  padding: 0vw;
+  margin: 0vw;
+}
+
+.ourVision h2 {
   width: 190px;
   height: 41px;
   left: 125px;
@@ -22,11 +34,10 @@
   text-align: center;
   
   color: #167D7F;
-  }
+}
 
-#ourVisionPara {
-position: absolute;
-width: 605px;
+.ourVision p {
+  width: 605px;
 height: 310px;
 left: 125px;
 top: 302px;
@@ -40,13 +51,36 @@ line-height: 38px;
 color: #1A5D5F;
 }
 
-
-.youthProjects {
-  background-color: #98D7C2;
+.ourVision img {
+width: 564px;
+height: 383px;
 }
 
-#youthProjectsTitle {
-  position: absolute;
+
+/*YOUTH PROJECTS SECTION*/
+
+.youthProjects {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  width: auto;
+  height: 800px;;
+}
+
+.youthProjectsContainer {
+  display: flex;
+  flex-flow: column;
+  padding: 0vw;
+  margin: 0vw;
+  align-items: center;
+}
+
+.youthProjects h1 {
   width: 417px;
   height: 41px;
   left: 511px;
@@ -57,70 +91,75 @@ color: #1A5D5F;
   font-weight: 600;
   font-size: 60px;
   line-height: 38px;
-  /* or 63% */
   
   text-align: center;
   
   color: pink;
 }
 
-#youthProjectsButton {
-  position: absolute;
+.youthProjects button {
   width: 215px;
   height: 74px;
   left: 612px;
   top: 1424px;
-  
-  background: #FFFFFF;
+
+  background-color: white;
   border-radius: 10px;
-  
-  
-  /* View More! */
-  position: absolute;
-  width: 126px;
-  height: 38px;
-  left: 657px;
-  top: 1442px;
+  font-family: 'Roboto';
+  color: #167D7F;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+
+
+/* JOIN THE POOL PARTY SECTION */
+
+.joinThePoolParty {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  width: auto;
+  height: 800px;
+}
+
+.joinThePoolParty img {
+  width: 150px;
+  height: 200px;
+}
+
+.joinThePoolPartyContainer {
+  display: flex;
+  flex-flow: column;
+  padding: 0vw;
+  margin: 0vw;
+  align-items: center;
+
+}
+
+.joinThePoolParty h1 {
+  width: 417px;
+  height: 41px;
+  left: 511px;
+  top: 926px;
   
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 60px;
   line-height: 38px;
-  /* identical to box height, or 152% */
   
   text-align: center;
   
-  color: #167D7F;
-  
+  color: pink;
 }
 
-
-
-.joinThePoolParty {
-  background-color: white;
-}
-
-#joinThePoolPartyTitle {
-  position: absolute;
-width: 417px;
-height: 41px;
-left: 511px;
-top: 926px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 60px;
-line-height: 38px;
-
-text-align: center;
-
-color: pink;
-}
-
-#joinThePoolPartyPara {
-  position: absolute;
+.joinThePoolParty p {
   width: 605px;
   height: 310px;
   left: 125px;
@@ -133,10 +172,4 @@ color: pink;
   line-height: 38px;
   
   color: #1A5D5F;
-  }
-
-.footer {
-  background-color: #167D7F;
 }
-
-
