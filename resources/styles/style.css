@@ -1,0 +1,142 @@
+
+
+.ourVision {
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+
+#ourVisionTitle {
+  position: absolute;
+  width: 190px;
+  height: 41px;
+  left: 125px;
+  top: 198px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 38px;
+  
+  text-align: center;
+  
+  color: #167D7F;
+  }
+
+#ourVisionPara {
+position: absolute;
+width: 605px;
+height: 310px;
+left: 125px;
+top: 302px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+
+color: #1A5D5F;
+}
+
+
+.youthProjects {
+  background-color: #98D7C2;
+}
+
+#youthProjectsTitle {
+  position: absolute;
+  width: 417px;
+  height: 41px;
+  left: 511px;
+  top: 926px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 38px;
+  /* or 63% */
+  
+  text-align: center;
+  
+  color: pink;
+}
+
+#youthProjectsButton {
+  position: absolute;
+  width: 215px;
+  height: 74px;
+  left: 612px;
+  top: 1424px;
+  
+  background: #FFFFFF;
+  border-radius: 10px;
+  
+  
+  /* View More! */
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  left: 657px;
+  top: 1442px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 152% */
+  
+  text-align: center;
+  
+  color: #167D7F;
+  
+}
+
+
+
+.joinThePoolParty {
+  background-color: white;
+}
+
+#joinThePoolPartyTitle {
+  position: absolute;
+width: 417px;
+height: 41px;
+left: 511px;
+top: 926px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 38px;
+
+text-align: center;
+
+color: pink;
+}
+
+#joinThePoolPartyPara {
+  position: absolute;
+  width: 605px;
+  height: 310px;
+  left: 125px;
+  top: 302px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  
+  color: #1A5D5F;
+  }
+
+.footer {
+  background-color: #167D7F;
+}
+
+
