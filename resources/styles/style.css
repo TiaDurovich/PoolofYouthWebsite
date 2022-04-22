@@ -1,15 +1,18 @@
+
 /* OUR VISION SECTION*/
 .ourVision {
+ width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+ height: 800px;
+ left: 50%;
+
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
 
-  padding: 0vw;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  width: auto;
-  height: 800px;
+  background-color: white;
 }
 
 .ourVisionContainerText {
@@ -37,7 +40,7 @@
 }
 
 .ourVision p {
-  width: 605px;
+width: 605px;
 height: 310px;
 left: 125px;
 top: 302px;
@@ -60,16 +63,18 @@ height: 383px;
 /*YOUTH PROJECTS SECTION*/
 
 .youthProjects {
+ width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+ height: 800px;
+ left: 50%;
+
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
 
-  padding: 0vw;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  width: auto;
-  height: 800px;;
+  background-color: #98D7C2;
 }
 
 .youthProjectsContainer {
@@ -94,7 +99,7 @@ height: 383px;
   
   text-align: center;
   
-  color: pink;
+  color: white;
 }
 
 .youthProjects button {
@@ -116,16 +121,18 @@ height: 383px;
 /* JOIN THE POOL PARTY SECTION */
 
 .joinThePoolParty {
+ width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+ height: 800px;
+ left: 50%;
+
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
 
-  padding: 0vw;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  width: auto;
-  height: 800px;
+  background-color: white;
 }
 
 .joinThePoolParty img {
