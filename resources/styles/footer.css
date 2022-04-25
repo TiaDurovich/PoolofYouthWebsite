@@ -53,11 +53,59 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
   }
 
-  #twitter {
-    position: relative;
-    width: 3vw;
-    height: 3vw;
+  .socialMedia {
+    display: flex;
+    flex-flow: row;
+    padding: 0vw;
+    margin: 0vw;
+    justify-content: center;
   }
+
+  #twitter {
+    width: 35px;
+    height: 35px;  
+
+    margin-top:1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 10vw;
+    border-color: white;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  #youtube {
+    width: 35px;
+    height: 35px;  
+
+    margin-top:1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 10vw;
+    border-color: white;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  #email {
+    width: 35px;
+    height: 35px;  
+
+    margin-top:1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 10vw;
+    border-color: white;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+
 
   /*LINKS*/
   .footerLinks {
