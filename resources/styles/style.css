@@ -151,9 +151,12 @@ height: 383px;
   background-color: white;
 }
 
-.joinThePoolParty img {
-  width: 150px;
-  height: 200px;
+.joinThePoolPartyImage {
+  display: flex;
+  flex-flow: column;
+  padding: 0vw;
+  margin: 0vw;
+  align-items: center;
 }
 
 .joinThePoolPartyContainer {
@@ -162,37 +165,33 @@ height: 383px;
   padding: 0vw;
   margin: 0vw;
   align-items: center;
-
+  height: 800px;
 }
 
 .joinThePoolParty h1 {
-  width: 417px;
-  height: 41px;
-  left: 511px;
-  top: 926px;
-  
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
   line-height: 38px;
+  margin-top: 170px;
   
   text-align: center;
   
-  color: pink;
+  color: #1A5D5F;
 }
 
 .joinThePoolParty p {
-  width: 605px;
-  height: 310px;
-  left: 125px;
-  top: 302px;
+  width: 660px;
   
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 38px;
+  text-align: center;
+  margin-top: 25px;
   
   color: #1A5D5F;
 }
+
