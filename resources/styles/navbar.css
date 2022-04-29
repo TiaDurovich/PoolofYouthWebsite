@@ -1,3 +1,12 @@
+a:visited {
+  color: #29A0B1;
+}
+
+a::before {
+  color: #29A0B1;
+}
+
+
 /* NAVBAR */
 .navbar { 
    display: flex;

@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="resources/styles/navbar.css" type="text/css">
     <link rel="stylesheet" href="resources/styles/footer.css" type="text/css">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,15 +42,16 @@
         <div class='ourVisionContainerText'>
             <h2>Our Vision</h2>
         
-            <p> fdfbdhsjfbhdsj hfudisf ufidshfusdi fudsihfsd hufidsf, ffdfs fdsfsd. 
-            hfdsuyfb ufdishfds fdsuifds, hufidsf hfuidshfds fuidshfsf fudsf.fdfbdhsjfbhdsj 
-            hfudisf ufidshfusdi fudsihfsd hufidsf, ffdfs fdsfsd. 
-            hfdsuyfb ufdishfds fdsuifds, hufidsf hfuidshfds fuidshfsf fudsf.fdfbdhsjfbhdsj 
-            hfudisf ufidshfusdi fudsihfsd hufidsf, ffdfs fdsfsd. 
-            hfdsuyfb ufdishfds fdsuifds, hufidsf hfuidshfds fuidshfsf fudsf.</p>
+            <p>Pool of Youth—founded by a group of high school students from New Zealand—
+                is a collective focused on promoting young people in blockchain. 
+                Our purpose is to elevate Cardano blockchain projects developed by students in high school 
+                by providing a space where individuals can have their work and profile displayed. 
+                Furthermore, we wish to allow youth to connect with other likeminded individuals, 
+                developing a Cardano network for young people across the globe. 
+            </p>
             </div>
 
-            <img src="resources/coolDesign.png" alt="Cool Design">
+            <img src="resources/whiteSpace.png" alt="Cool Design">
 
     </div>
 
@@ -57,6 +59,16 @@
     <div class='youthProjects'>
         <div class='youthProjectsContainer'>
         <h1>Youth Projects</h1>
+
+        <div class='slider'>
+            <div id='comingSoon1'><img src='resources/comingSoon1.png'></div>
+            <div id='comingSoon2'><img src='resources/comingSoon2.png'></div>
+            <div id='comingSoon1'><img src='resources/comingSoon1.png'></div>
+            <div id='comingSoon2'><img src='resources/comingSoon2.png'></div>
+            <div id='comingSoon1'><img src='resources/comingSoon1.png'></div>
+            <div id='comingSoon2'><img src='resources/comingSoon2.png'></div>
+        </div>
+
 
         <a href="html/viewprojects.html"><button>View More!</button></a>
      </div>
@@ -114,6 +126,19 @@
         </div>
     </div>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type='text/javascript'>
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            centerMode: true,
+            variableWidth: true
+        });
+    </script>
 </body>
 
 

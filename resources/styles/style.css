@@ -102,11 +102,27 @@ height: 383px;
   color: white;
 }
 
+.slider {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+  list-style-type: none;
+
+  padding-top: 4vw;
+
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+}
+
 .youthProjects button {
   width: 215px;
   height: 74px;
   left: 612px;
   top: 1424px;
+  margin-top: 1.3vw;
 
   background-color: white;
   border-radius: 10px;
