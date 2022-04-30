@@ -166,51 +166,5 @@
     }
 
 
-    /* CONTACT US */
-
-    .contactUs {
-        width: 100vw;
-        position: relative;
-        margin-left: -50vw;
-        height: 450px;
-        left: 50%;
-       
-         display: flex;
-         flex-flow: row;
-         justify-content: center;
-         align-items: center;
-       
-         background-color: white;
-       }
-       
-       .contactUsImage {
-         display: flex;
-         flex-flow: column;
-         padding: 0vw;
-         margin: 0vw;
-         align-items: center;
-       }
-       
-       .contactUsContainer {
-         display: flex;
-         flex-flow: column;
-         padding: 0vw;
-         margin: 0vw;
-         align-items: center;
-         height: 800px;
-       }
-       
-       .contactUs h1 {
-         font-family: 'Roboto';
-         font-style: normal;
-         font-weight: 600;
-         font-size: 40px;
-         line-height: 38px;
-         margin-top: 250px;
-         
-         text-align: center;
     
-         color: #167D7F;
-       }
-       
     
