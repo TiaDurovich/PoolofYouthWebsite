@@ -86,11 +86,6 @@ height: 383px;
 }
 
 .youthProjects h1 {
-  width: 417px;
-  height: 41px;
-  left: 511px;
-  top: 926px;
-  
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
@@ -178,7 +173,7 @@ height: 383px;
   
   text-align: center;
   
-  color: #1A5D5F;
+  color: #167D7F;
 }
 
 .joinThePoolParty p {

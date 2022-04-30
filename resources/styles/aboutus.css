@@ -1,0 +1,216 @@
+
+/* ABOUTUS INFO*/
+
+.aboutusInfo {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 683px;
+    left: 50%;
+   
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+   
+     background-color: white;
+   }
+   
+   .aboutusInfoImage {
+     display: flex;
+     flex-flow: column;
+     padding: 0vw;
+     margin: 0vw;
+     align-items: center;
+   }
+   
+   .aboutusInfoContainer {
+     display: flex;
+     flex-flow: column;
+     padding: 0vw;
+     margin: 0vw;
+     align-items: center;
+     height: 800px;
+   }
+   
+   .aboutusInfo h1 {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 40px;
+     line-height: 38px;
+     margin-top: 170px;
+     
+     text-align: center;
+
+     color: #167D7F;
+   }
+   
+   .aboutusInfo p {
+     width: 660px;
+     
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 38px;
+     text-align: center;
+     margin-top: 25px;
+     
+     color: #1A5D5F;
+   }
+   
+
+   /* MEET THE HOSTS */
+
+   .meetTheHosts {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 800px;
+    left: 50%;
+   
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+   
+     background-color: #ED99A0;
+   }
+   
+   .meetTheHostsContainer {
+    display: flex;
+    flex-flow: column;
+    padding: 0vw;
+    margin: 0vw;
+    align-items: center;
+  }
+
+  .meetTheHosts h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 38px;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  .hostProfiles {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    padding: 60px;
+  }
+
+  .hostProfiles img {
+      width: 280px;
+      height: 280px;
+    }
+
+    .hostProfile1 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+
+    .hostProfile2 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+
+    .hostProfile3 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+
+    .hostProfile4 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+
+    .hostProfiles h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 38px;
+
+        color: #FFFFFF;
+    }
+
+    .hostProfiles p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+    }
+
+
+    /* CONTACT US */
+
+    .contactUs {
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        height: 450px;
+        left: 50%;
+       
+         display: flex;
+         flex-flow: row;
+         justify-content: center;
+         align-items: center;
+       
+         background-color: white;
+       }
+       
+       .contactUsImage {
+         display: flex;
+         flex-flow: column;
+         padding: 0vw;
+         margin: 0vw;
+         align-items: center;
+       }
+       
+       .contactUsContainer {
+         display: flex;
+         flex-flow: column;
+         padding: 0vw;
+         margin: 0vw;
+         align-items: center;
+         height: 800px;
+       }
+       
+       .contactUs h1 {
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 40px;
+         line-height: 38px;
+         margin-top: 250px;
+         
+         text-align: center;
+    
+         color: #167D7F;
+       }
+       
+    
