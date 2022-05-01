@@ -1,12 +1,93 @@
-/* COMING SOON */
 
-h1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 40px;
-    line-height: 38px;
-    
-    text-align: center;
-    
-    color: #167D7F;
+/* APPLICATION INFO*/
+
+.applyInfo {
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 483px;
+  left: 50%;
+ 
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+ 
+   background-color: white;
+ }
+ 
+ 
+ .applyInfoContainer {
+   display: flex;
+   flex-flow: column;
+   padding: 0vw;
+   margin: 0vw;
+   align-items: center;
+   height: 800px;
+   width: 605px;
   }
+ 
+ .applyInfo h2 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 25px;
+   width: 393px;
+   
+   text-align: center;
+
+   color: #ED99A0;
+ }
+
+ .applyInfo h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  width: 393px;
+  
+  text-align: center;
+
+  color: #167D7F;
+}
+
+ #send {
+   display: flex;
+   flex-flow: row;
+   padding: 0vw;
+   margin: 0vw;
+   align-items: center;
+   height: 45px;
+   margin-top: 240px;
+   padding: 0%;
+ }
+
+ #project {
+  display: flex;
+  flex-flow: row;
+  padding: 0vw;
+  margin: 0vw;
+  align-items: center;
+  height: 45px;
+  margin: 0%;
+  padding: 0%;
+ }
+ 
+ .applyInfo p {
+  display: flex;
+  flex-flow: row;
+  padding: 0vw;
+  margin: 0vw;
+  align-items: center;
+   
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 38px;
+   text-align: center;
+   margin-top: 25px;
+   
+   color: #1A5D5F;
+ }
+ 

@@ -33,17 +33,34 @@
      height: 800px;
    }
    
-   .aboutusInfo h1 {
+   .title {
+    display: flex;
+    flex-flow: row;
+    padding: 0vw;
+    margin-bottom: 3vw;
+    align-items: center;
+    height: 20px;
+    width: 360px;
+    justify-content: space-between;
+
      font-family: 'Roboto';
-     font-style: normal;
+     font-style: bold;
      font-weight: 600;
-     font-size: 40px;
      line-height: 38px;
      margin-top: 170px;
      
      text-align: center;
+   }
 
-     color: #167D7F;
+   #about {
+    color: #167D7F;
+    font-size: 20px;
+   }
+
+   #pool {
+     color: #ED99A0;
+     font-size: 20px;
+
    }
    
    .aboutusInfo p {
