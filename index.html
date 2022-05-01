@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="resources/styles/navbar.css" type="text/css">
     <link rel="stylesheet" href="resources/styles/footer.css" type="text/css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
@@ -61,17 +58,17 @@
         <div class='youthProjectsContainer'>
         <h1>Youth Projects</h1>
 
-        <div class='slider'>
-            <div id='comingSoon1'><img src='resources/comingSoon1.png'></div>
-            <div id='comingSoon2'><img src='resources/comingSoon2.png'></div>
-            <div id='comingSoon1'><img src='resources/comingSoon1.png'></div>
-            <div id='comingSoon2'><img src='resources/comingSoon2.png'></div>
-            <div id='comingSoon1'><img src='resources/comingSoon1.png'></div>
-            <div id='comingSoon2'><img src='resources/comingSoon2.png'></div>
+        <div class='youthProjectsProfiles'>
+            <div><img src='resources/comingSoon1.png'></div>
+            <div><img src='resources/comingSoon2.png'></div>
+            <div><img src='resources/comingSoon1.png'></div>
+            <div><img src='resources/comingSoon2.png'></div>
         </div>
 
 
-        <a href="html/viewprojects.html"><button>View More!</button></a>
+        <div class='youthProjectsButton'>
+            <a id='viewMore' href="html/apply.html"><h4>Apply!</h4></a>
+        </div>
      </div>
     </div>
   
@@ -85,8 +82,7 @@
         <div class='joinThePoolPartyContainer'>
             <h1 id="joinThePoolPartyTitle">Join the Pool Party!</h1>
 
-            <p id="joinThePoolPartyPara">The Pool of Youth stake pool is currently being developed by one of our co-founders, 
-                Tia Durovich. Tia is a senior high-school student from Aotearoa, and this year has chosen to delve into 
+            <p id="joinThePoolPartyPara">The Pool of Youth stake pool is currently being developed by one of our co-founders. Tia is a senior high-school student from Aotearoa, and this year has chosen to delve into 
                 the world of stake pool operation with assistance from her high-school teacher and fellow experts in the Cardano 
                 community.<br><br> Watch this space for updates regarding the development of the pool, and get ready to be the first to 
                 join our pool party!
@@ -131,19 +127,6 @@
         </div>
     </div>
 
-    <!--SLIDER SCRIPT-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type='text/javascript'>
-        $('.slider').slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 4,
-            centerMode: true,
-            variableWidth: true
-        });
-    </script>
 </body>
 
 

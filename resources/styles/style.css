@@ -83,50 +83,72 @@ height: 383px;
   padding: 0vw;
   margin: 0vw;
   align-items: center;
+  justify-content: space-evenly;
+
+  height: 800px;
 }
 
 .youthProjects h1 {
+  display: flex;
+  flex-flow: row;
+  padding: 0vw;
+  margin-top: 4vw;
+  align-items: center;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
-  line-height: 38px;
-  
+  padding-bottom: 50px;
+
   text-align: center;
   
   color: white;
 }
 
-.slider {
+.youthProjectsProfiles {
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  padding: 0vw;
+  margin-bottom: 5vw;
   align-items: center;
-
-  list-style-type: none;
-
-  padding-top: 4vw;
-
-  width: 100vw;
-  margin-left: -50vw;
-  left: 50%;
 }
 
-.youthProjects button {
+.youthProjectsProfiles img {
+  width: 300px;
+  height: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.youthProjectsButton {
+  display: flex;
+  flex-flow: row;
+  padding: 0vw;
+  margin-bottom: 2vw;
+  justify-content: center;  
   width: 215px;
   height: 74px;
-  left: 612px;
-  top: 1424px;
-  margin-top: 1.3vw;
-
-  background-color: white;
-  border-radius: 10px;
-  font-family: 'Roboto';
-  color: #167D7F;
-  font-weight: 600;
-  font-size: 25px;
 }
 
+#viewMore {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 25px;
+  line-height: 0px;
+  text-decoration: none;
+
+  text-align: center;
+
+  background: white;
+  border-radius: 10px;
+
+  width: 215px;
+  height: 70px;
+
+  color: #167D7F;
+}
 
 
 /* JOIN THE POOL PARTY SECTION */
