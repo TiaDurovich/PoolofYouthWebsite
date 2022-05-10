@@ -1,12 +1,4 @@
 
-  a:visited {
-    color: white;
-  }
-
-  a::before {
-    color: #FFFFFF !important;
-  }
-  
 /*MAIN FOOTER FLEX*/
 .footer { 
     display: flex;
@@ -125,18 +117,17 @@
 
     left: 1136px;
     top: 2602px;
+  }
 
+  .footerLinks h4 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 17px;
 
-    text-decoration-line: underline;
-
     color: #FFFFFF;
-
+    text-decoration-line: none;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   }
-
 

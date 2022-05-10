@@ -1,26 +1,20 @@
-a:visited {
-  color: #29A0B1;
-}
-
-a::before {
-  color: #29A0B1;
-}
-
-
 /* NAVBAR */
+
+html {
+  font-size: 18px;
+}
+
 .navbar { 
    display: flex;
    flex-flow: row;
    justify-content: left;
 
-   width: 100vw;
+   width: 100%;
    position: relative;
-   margin-left: -50vw;
-   height: 117px;
-   left: 50%;
+   height: 9vw;
    justify-content: space-between;
  
-   background-color: white;
+   background-color: black;
  }
 
  .navbar img {
@@ -46,8 +40,7 @@ a::before {
 
    font-family: 'Roboto';
    font-style: normal;
-   font-weight: 1000;
-   font-size: 18px;
+   font-size: 1rem;
    line-height: 38px;
    text-decoration: none;
 
@@ -65,7 +58,7 @@ a::before {
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 1000;
-   font-size: 18px;
+   font-size: 1rem;
    line-height: 38px;
    text-decoration: none;
 
@@ -84,7 +77,7 @@ a::before {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 1000;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 38px;
   text-decoration: none;
 
@@ -104,7 +97,7 @@ a::before {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 1000;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 38px;
   text-decoration: none;
 
