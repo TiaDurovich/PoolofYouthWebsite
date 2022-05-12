@@ -149,36 +149,43 @@ height: 383px;
 
 .joinThePoolParty {
   display: flex;
-  flex-direction: row;
- 
-  width: 100%;
-  position: relative;
-  height: 800px; 
- 
-  background-color: white;
+ flex-flow: row;
+ align-items: center;
+ justify-content: center;
+
+ width: 100%;
+ position: relative;
+ height: 800px; 
 }
 
 .joinThePoolPartyImage {
   display: flex;
   flex-flow: column;
-  align-items: center;
+  width: auto;
+  padding: 0%;
+}
+
+.joinThePoolParty img {
+  width: 200px;
+  padding: 10px;
 }
 
 .joinThePoolPartyContainer {
   display: flex;
   flex-flow: column;
   width: 60%;
-  align-items: center;
+  padding: 0%;
 }
 
 .joinThePoolParty h1 {
   display: flex;
   flex-flow: row;
+  text-align: center;
+  justify-content: center;
 
   font-family: 'Roboto';
   font-style: normal;
   font-size: 3.33rem;
-  padding-top: 15%;
     
   color: #167D7F;
 }
