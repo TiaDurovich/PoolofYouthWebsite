@@ -1,26 +1,31 @@
 
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
 /* ABOUTUS INFO*/
 
 .aboutusInfo {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
     width: 100vw;
     position: relative;
-    margin-left: -50vw;
-    height: 683px;
-    left: 50%;
+    height: 683px; 
    
-     display: flex;
-     flex-flow: row;
-     justify-content: center;
-     align-items: center;
+    justify-content: center;
    
-     background-color: white;
+    background-color: white;
    }
    
    .aboutusInfoImage {
      display: flex;
      flex-flow: column;
-     padding: 0vw;
-     margin: 0vw;
      align-items: center;
    }
    
@@ -81,25 +86,22 @@
    /* MEET THE HOSTS */
 
    .meetTheHosts {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
     width: 100vw;
     position: relative;
-    margin-left: -50vw;
-    height: 800px;
-    left: 50%;
+    height: 683px; 
    
-     display: flex;
-     flex-flow: row;
-     justify-content: center;
-     align-items: center;
-   
-     background-color: #ED99A0;
+    justify-content: center;
+      
+    background-color: #ED99A0;
    }
    
    .meetTheHostsContainer {
     display: flex;
     flex-flow: column;
-    padding: 0vw;
-    margin: 0vw;
     align-items: center;
   }
 

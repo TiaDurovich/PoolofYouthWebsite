@@ -2,13 +2,17 @@ html {
   font-size: 18px;
 }
 
+body {
+  margin: 0;
+}
+
 /* OUR VISION SECTION*/
 .ourVision {
  display: flex;
  flex-flow: row;
  align-items: center;
 
- width: 100%;
+ width: 100vw;
  position: relative;
  height: 683px; 
 
@@ -69,7 +73,7 @@ height: 383px;
   justify-content: center;
 
  
-  width: 100%;
+  width: 100vw;
   position: relative;
   height: 800px; 
  
@@ -82,7 +86,6 @@ height: 383px;
   width: 90%;
   align-items: center;
   justify-content: space-evenly;
-  padding: 5%;
 }
 
 .youthProjects h1 {
@@ -101,16 +104,16 @@ height: 383px;
   display: flex;
   flex-flow: row;
   justify-content: center;
-  width: 90%;
+  width: 75%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 .youthProjectsProfiles img {
-  width: 16.7rem;
-  height: 16.7rem;
-  padding-left: 0.556rem;
-  padding-right: 0.556rem;
+  width: 30%;
+  height: 30%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .youthProjectsButton {
@@ -153,7 +156,7 @@ height: 383px;
  align-items: center;
  justify-content: center;
 
- width: 100%;
+ width: 100vw;
  position: relative;
  height: 800px; 
 }
