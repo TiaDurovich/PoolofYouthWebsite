@@ -17,9 +17,7 @@ body {
     width: 100vw;
     position: relative;
     height: 683px; 
-   
-    justify-content: center;
-   
+      
     background-color: white;
    }
    
@@ -32,8 +30,6 @@ body {
    .aboutusInfoContainer {
      display: flex;
      flex-flow: column;
-     padding: 0vw;
-     margin: 0vw;
      align-items: center;
      height: 800px;
    }
@@ -41,7 +37,6 @@ body {
    .title {
     display: flex;
     flex-flow: row;
-    padding: 0vw;
     margin-bottom: 3vw;
     align-items: center;
     height: 20px;
@@ -50,7 +45,6 @@ body {
 
      font-family: 'Roboto';
      font-style: bold;
-     font-weight: 600;
      line-height: 38px;
      margin-top: 170px;
      
