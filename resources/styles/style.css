@@ -12,11 +12,11 @@ body {
  flex-flow: row;
  align-items: center;
 
- width: 100vw;
  position: relative;
- height: 683px; 
+ height: 46vw; 
+ width: 100vw;
 
- background-color: white;
+ background-color: #FFFFFF;
 }
 
 .ourVisionContainerText {
@@ -27,27 +27,19 @@ body {
 }
 
 .ourVision h2 {
-  width: 100%;
-  height: 41px;
-  left: 125px;
-  top: 198px;
-  
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 600;
   font-size: 2.22rem;
-  line-height: 38px;
   
   text-align: left;
+  width: 100%;
   
   color: #167D7F;
 }
 
 .ourVision p {
-width: 605px;
-height: 310px;
-left: 125px;
-top: 302px;
+width: 100%;
+height: 22vw;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -58,9 +50,26 @@ line-height: 38px;
 color: #1A5D5F;
 }
 
-.ourVision img {
-width: 564px;
-height: 383px;
+.ourVisionPeople {
+  display: flex;
+  flex-flow: row;
+  justify-content: bottom;
+  align-items: end;
+  width: 75%;
+  height: 46vw;
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+
+#sittingPerson{
+width: 40%;
+height: 40%;
+}
+
+#floatingPerson {
+width: 40%;
+height: 40%;
+padding-right: 10vw;
 }
 
 
@@ -73,7 +82,7 @@ height: 383px;
   justify-content: center;
 
  
-  width: 100vw;
+  width: 100%;
   position: relative;
   height: 800px; 
  
@@ -156,7 +165,7 @@ height: 383px;
  align-items: center;
  justify-content: center;
 
- width: 100vw;
+ width: 100%;
  position: relative;
  height: 800px; 
 }
@@ -169,7 +178,7 @@ height: 383px;
 }
 
 .joinThePoolParty img {
-  width: 200px;
+  width: 10%;
   padding: 10px;
 }
 

@@ -83,31 +83,32 @@ body {
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: center;
 
     width: 100vw;
     position: relative;
-    height: 683px; 
-   
-    justify-content: center;
-      
+    height: 680px; 
+         
     background-color: #ED99A0;
    }
    
    .meetTheHostsContainer {
     display: flex;
     flex-flow: column;
+    width: 90%;
     align-items: center;
+    justify-content: space-evenly;
   }
 
   .meetTheHosts h2 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 38px;
-
-    text-align: center;
-    
+    font-size: 3.33rem;
+      
     color: #FFFFFF;
   }
 
@@ -115,13 +116,14 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: center;
-
-    padding: 60px;
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .hostProfiles img {
-      width: 280px;
-      height: 280px;
+    width: 100%;
+    height: 100%;
     }
 
     .hostProfile1 {
@@ -129,8 +131,8 @@ body {
         flex-flow: column;
         align-items: center;
 
-        padding-right: 22px;
-        padding-left: 22px;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .hostProfile2 {
@@ -138,8 +140,8 @@ body {
         flex-flow: column;
         align-items: center;
 
-        padding-right: 22px;
-        padding-left: 22px;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .hostProfile3 {
@@ -147,8 +149,8 @@ body {
         flex-flow: column;
         align-items: center;
 
-        padding-right: 22px;
-        padding-left: 22px;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .hostProfile4 {
@@ -156,8 +158,8 @@ body {
         flex-flow: column;
         align-items: center;
 
-        padding-right: 22px;
-        padding-left: 22px;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .hostProfiles h3 {

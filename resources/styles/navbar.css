@@ -31,7 +31,7 @@ html {
   width: 70%;
  }
 
- #aboutUs {
+ #navLink {
    display: flex;
    flex-flow: column;
    justify-content: center;
@@ -48,39 +48,6 @@ html {
    color: #29A0B1;
   }
 
- #viewProjects {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  white-space: nowrap;
-
-   font-family: 'Roboto';
-   font-style: normal;
-   font-size: 1rem;
-   line-height: 38px;
-   text-decoration: none;
-
-   text-align: center;
-
-   color: #29A0B1;
-}
-
-#apply {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  white-space: nowrap;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 38px;
-  text-decoration: none;
-
-  text-align: center;
-
-  color: #29A0B1;
-}
 
 #startStaking {
   display: flex;
