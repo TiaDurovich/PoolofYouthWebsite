@@ -13,25 +13,39 @@ body {
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: center;
 
-    width: 100vw;
     position: relative;
-    height: 683px; 
+    width: 100vw;
+    height: 46vw; 
       
-    background-color: white;
+    background-color: #FFFFFF;
    }
    
    .aboutusInfoImage {
      display: flex;
      flex-flow: column;
-     align-items: center;
-   }
+  }
+
+  #floatingPerson{
+    width: 50%;
+    height: 50%;
+    padding-top: 40%;
+    padding-left: 20%;
+  }
+
+  #swimmingPerson{
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    padding-bottom: 20%;
+  }
    
    .aboutusInfoContainer {
      display: flex;
      flex-flow: column;
      align-items: center;
-     height: 800px;
+     height: 52vw;
    }
    
    .title {
@@ -39,26 +53,24 @@ body {
     flex-flow: row;
     margin-bottom: 3vw;
     align-items: center;
-    height: 20px;
-    width: 360px;
+    height: 3.4vw;
+    width: 25.5vw;
     justify-content: space-between;
 
      font-family: 'Roboto';
-     font-style: bold;
-     line-height: 38px;
-     margin-top: 170px;
+     margin-top: 10vw;
      
      text-align: center;
    }
 
    #about {
     color: #167D7F;
-    font-size: 20px;
+    font-size: 1.4vw;
    }
 
    #pool {
      color: #ED99A0;
-     font-size: 20px;
+     font-size: 1.4vw;
 
    }
    
