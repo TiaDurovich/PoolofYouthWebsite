@@ -8,7 +8,6 @@ body {
 }
 
 /* ABOUTUS INFO*/
-
 .aboutusInfo {
     display: flex;
     flex-flow: row;
@@ -44,28 +43,26 @@ body {
    .aboutusInfoContainer {
      display: flex;
      flex-flow: column;
-     align-items: center;
-     height: 52vw;
+     width: 90%;
+     padding: 8%;
    }
    
    .title {
     display: flex;
     flex-flow: row;
-    margin-bottom: 3vw;
-    align-items: center;
-    height: 3.4vw;
-    width: 25.5vw;
-    justify-content: space-between;
+    justify-content: center;
 
-     font-family: 'Roboto';
-     margin-top: 10vw;
-     
-     text-align: center;
+    height: 3.4vw;
+    width: 100%;
+    margin-bottom: 3vw;
+
+    font-family: 'Roboto';
    }
 
    #about {
     color: #167D7F;
     font-size: 1.4vw;
+    margin-right: 1vw;
    }
 
    #pool {
@@ -74,14 +71,13 @@ body {
 
    }
    
-   .aboutusInfo p {
-     width: 660px;
-     
+   .aboutusInfo p {     
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 400;
-     font-size: 20px;
-     line-height: 38px;
+     font-size: 1.5vw;
+     width: 50vw;
+     line-height: 2.5vw;
      text-align: center;
      margin-top: 25px;
      
@@ -133,52 +129,19 @@ body {
     padding-bottom: 5%;
   }
 
-  .hostProfiles img {
-    width: 100%;
-    height: 100%;
-    }
+   .hostProfileBio {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
 
-    .hostProfile1 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-    .hostProfile2 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-    .hostProfile3 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-    .hostProfile4 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
+      padding-right: 2rem;
+      padding-left: 2rem;
+   }
 
     .hostProfiles h3 {
         font-family: 'Roboto';
         font-style: normal;
-        font-size: 20px;
-        line-height: 38px;
+        font-size: 1.2rem;
 
         color: #FFFFFF;
     }
@@ -186,10 +149,17 @@ body {
     .hostProfiles p {
         font-family: 'Roboto';
         font-style: normal;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        text-align: center;
+        margin-top: -0.3rem;
 
         color: #FFFFFF;
+    }
+
+    .hostProfiles img {
+      width: 17vw;
+      height: 17vw;
     }
 
 
