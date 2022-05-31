@@ -95,7 +95,7 @@ body {
 
     width: 100vw;
     position: relative;
-    height: 680px; 
+    height: 55.5vw; 
          
     background-color: #ED99A0;
    }
@@ -115,7 +115,7 @@ body {
 
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 3.33rem;
+    font-size: 4.2vw;
       
     color: #FFFFFF;
   }
@@ -141,7 +141,7 @@ body {
     .hostProfiles h3 {
         font-family: 'Roboto';
         font-style: normal;
-        font-size: 1.2rem;
+        font-size: 1.6vw;
 
         color: #FFFFFF;
     }
@@ -149,7 +149,7 @@ body {
     .hostProfiles p {
         font-family: 'Roboto';
         font-style: normal;
-        font-size: 0.8rem;
+        font-size: 1vw;
         line-height: 1rem;
         text-align: center;
         margin-top: -0.3rem;
