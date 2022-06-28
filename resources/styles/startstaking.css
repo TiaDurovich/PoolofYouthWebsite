@@ -1,10 +1,22 @@
 /* COMING SOON */
 
+.container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  height: 40vw; 
+  width: 100vw;
+}
+
 h1 {
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 40px;
-    line-height: 38px;
+    font-size: 3vw;
+    line-height: 3vw;
+    margin-top: -10vw;
     
     text-align: center;
     
