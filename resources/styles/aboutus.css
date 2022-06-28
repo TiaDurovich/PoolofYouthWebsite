@@ -1,76 +1,83 @@
 
-/* ABOUTUS INFO*/
+html {
+  font-size: 18px;
+}
 
+body {
+  margin: 0;
+}
+
+/* ABOUTUS INFO*/
 .aboutusInfo {
-    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
     position: relative;
-    margin-left: -50vw;
-    height: 683px;
-    left: 50%;
-   
-     display: flex;
-     flex-flow: row;
-     justify-content: center;
-     align-items: center;
-   
-     background-color: white;
+    width: 100vw;
+    height: 46vw; 
+      
+    background-color: #FFFFFF;
    }
    
    .aboutusInfoImage {
      display: flex;
      flex-flow: column;
-     padding: 0vw;
-     margin: 0vw;
-     align-items: center;
-   }
+  }
+
+  #floatingPerson{
+    width: 50%;
+    height: 50%;
+    padding-top: 40%;
+    padding-left: 20%;
+  }
+
+  #swimmingPerson{
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    padding-bottom: 20%;
+  }
    
    .aboutusInfoContainer {
      display: flex;
      flex-flow: column;
-     padding: 0vw;
-     margin: 0vw;
-     align-items: center;
-     height: 800px;
+     width: 90%;
+     padding: 8%;
    }
    
    .title {
     display: flex;
     flex-flow: row;
-    padding: 0vw;
-    margin-bottom: 3vw;
-    align-items: center;
-    height: 20px;
-    width: 360px;
-    justify-content: space-between;
+    justify-content: center;
 
-     font-family: 'Roboto';
-     font-style: bold;
-     font-weight: 600;
-     line-height: 38px;
-     margin-top: 170px;
-     
-     text-align: center;
+    height: 3.4vw;
+    width: 100%;
+    margin-bottom: 3vw;
+
+    font-family: 'Roboto';
    }
 
    #about {
     color: #167D7F;
-    font-size: 20px;
+    font-size: 1.4vw;
+    margin-right: 1vw;
    }
 
    #pool {
      color: #ED99A0;
-     font-size: 20px;
+     font-size: 1.4vw;
 
    }
    
-   .aboutusInfo p {
-     width: 660px;
-     
+   .aboutusInfo p {     
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 400;
-     font-size: 20px;
-     line-height: 38px;
+     font-size: 1.5vw;
+     width: 50vw;
+     line-height: 2.5vw;
      text-align: center;
      margin-top: 25px;
      
@@ -81,37 +88,35 @@
    /* MEET THE HOSTS */
 
    .meetTheHosts {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
     width: 100vw;
     position: relative;
-    margin-left: -50vw;
-    height: 800px;
-    left: 50%;
-   
-     display: flex;
-     flex-flow: row;
-     justify-content: center;
-     align-items: center;
-   
-     background-color: #ED99A0;
+    height: 55.5vw; 
+         
+    background-color: #ED99A0;
    }
    
    .meetTheHostsContainer {
     display: flex;
     flex-flow: column;
-    padding: 0vw;
-    margin: 0vw;
+    width: 90%;
     align-items: center;
+    justify-content: space-evenly;
   }
 
   .meetTheHosts h2 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 38px;
-
-    text-align: center;
-    
+    font-size: 4.2vw;
+      
     color: #FFFFFF;
   }
 
@@ -119,56 +124,24 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
-
-    padding: 60px;
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
-  .hostProfiles img {
-      width: 280px;
-      height: 280px;
-    }
+   .hostProfileBio {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
 
-    .hostProfile1 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 22px;
-        padding-left: 22px;
-    }
-
-    .hostProfile2 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 22px;
-        padding-left: 22px;
-    }
-
-    .hostProfile3 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 22px;
-        padding-left: 22px;
-    }
-
-    .hostProfile4 {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-        padding-right: 22px;
-        padding-left: 22px;
-    }
+      padding-right: 2rem;
+      padding-left: 2rem;
+   }
 
     .hostProfiles h3 {
         font-family: 'Roboto';
         font-style: normal;
-        font-size: 20px;
-        line-height: 38px;
+        font-size: 1.6vw;
 
         color: #FFFFFF;
     }
@@ -176,10 +149,17 @@
     .hostProfiles p {
         font-family: 'Roboto';
         font-style: normal;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 1vw;
+        line-height: 1rem;
+        text-align: center;
+        margin-top: -0.3rem;
 
         color: #FFFFFF;
+    }
+
+    .hostProfiles img {
+      width: 17vw;
+      height: 17vw;
     }
 
 

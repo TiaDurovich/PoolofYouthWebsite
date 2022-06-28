@@ -2,17 +2,21 @@ html {
   font-size: 18px;
 }
 
+body {
+  margin: 0;
+}
+
 /* OUR VISION SECTION*/
 .ourVision {
  display: flex;
  flex-flow: row;
  align-items: center;
 
- width: 100%;
  position: relative;
- height: 683px; 
+ height: 46vw; 
+ width: 100vw;
 
- background-color: white;
+ background-color: #FFFFFF;
 }
 
 .ourVisionContainerText {
@@ -23,40 +27,50 @@ html {
 }
 
 .ourVision h2 {
-  width: 100%;
-  height: 41px;
-  left: 125px;
-  top: 198px;
-  
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 600;
-  font-size: 2.22rem;
-  line-height: 38px;
+  font-size: 3vw;
   
   text-align: left;
+  width: 100%;
   
   color: #167D7F;
 }
 
 .ourVision p {
-width: 605px;
-height: 310px;
-left: 125px;
-top: 302px;
+width: 100%;
+height: 22vw;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 1.11rem;
-line-height: 38px;
+font-size: 1.4vw;
+line-height: 2.8vw;
 
 color: #1A5D5F;
 }
 
-.ourVision img {
-width: 564px;
-height: 383px;
+.ourVisionPeople {
+  display: flex;
+  flex-flow: row;
+  justify-content: bottom;
+  align-items: end;
+  width: 75%;
+  height: 46vw;
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+
+#sittingPerson{
+width: 40%;
+height: 40%;
+padding-bottom: 10%;
+}
+
+#floatingPerson {
+width: 40%;
+height: 40%;
+padding-right: 10vw;
 }
 
 
@@ -71,7 +85,7 @@ height: 383px;
  
   width: 100%;
   position: relative;
-  height: 800px; 
+  height: 55.5vw; 
  
   background-color: #98D7C2;
 }
@@ -82,7 +96,6 @@ height: 383px;
   width: 90%;
   align-items: center;
   justify-content: space-evenly;
-  padding: 5%;
 }
 
 .youthProjects h1 {
@@ -92,7 +105,7 @@ height: 383px;
 
   font-family: 'Roboto';
   font-style: normal;
-  font-size: 3.33rem;
+  font-size: 4.2vw;
 
   color: white;
 }
@@ -101,16 +114,16 @@ height: 383px;
   display: flex;
   flex-flow: row;
   justify-content: center;
-  width: 90%;
+  width: 75%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 .youthProjectsProfiles img {
-  width: 16.7rem;
-  height: 16.7rem;
-  padding-left: 0.556rem;
-  padding-right: 0.556rem;
+  width: 30%;
+  height: 30%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .youthProjectsButton {
@@ -123,6 +136,7 @@ height: 383px;
   width: 10%;
   height: 50px; 
   border-radius: 10px;
+
   background-color: white;
 
 }
@@ -155,7 +169,7 @@ height: 383px;
 
  width: 100%;
  position: relative;
- height: 800px; 
+ height: 55.5vw; 
 }
 
 .joinThePoolPartyImage {
@@ -166,7 +180,7 @@ height: 383px;
 }
 
 .joinThePoolParty img {
-  width: 200px;
+  width: 10%;
   padding: 10px;
 }
 
@@ -185,7 +199,7 @@ height: 383px;
 
   font-family: 'Roboto';
   font-style: normal;
-  font-size: 3.33rem;
+  font-size: 4.2vw;
     
   color: #167D7F;
 }
@@ -198,9 +212,11 @@ height: 383px;
 
   font-family: 'Roboto';
   font-style: normal;
-  font-size: 1.11rem;
-  line-height: 38px;
-  margin-top: -5px;
+  font-size: 1.4vw;
+  line-height: 2.8vw;
+  margin-top: -2.4vw;
+  margin-bottom: 3vw;
+
     
   color: #1A5D5F;
 }

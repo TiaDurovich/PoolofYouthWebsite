@@ -5,15 +5,14 @@
 <head>
     <!--Allows for writing in all languages-->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Pool of Youth</title>
     <link rel="shortcut icon" type="image/x-icon" href="../resources/PoYpfp.png">
 
-    <link rel="stylesheet" href="../resources/styles/navbar.css" type="text/css">
-    <link rel="stylesheet" href="../resources/styles/footer.css" type="text/css">
     <link rel="stylesheet" href="../resources/styles/aboutus.css" type="text/css">
-
-
+    <link rel="stylesheet" href="../resources/styles/navbar.css" type="text/css">
+    <link rel="stylesheet" href="../resources/styles/footer.css" type="text/css"> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,13 +25,14 @@
     <!--NAVBAR-->
     <div class="navbar">
 
-            <a href='../index.html'><img src="../resources/PoYLogoAndTitle2.png"></a>
+            <img src="../resources/PoYLogoAndTitle2.png">
+            
         
 
             <div class='navbarLinks'>
-                <a id="aboutUs" href='../html/aboutus.html'><h4>About Us</h4></a>
-                <a id="viewProjects" href='../html/viewprojects.html'><h4>View Projects</h4></a>
-                <a id="apply" href='../html/apply.html'><h4>Apply</h4></a>
+                <a id="navLink" href='../html/aboutus.html'><h4>About Us</h4></a>
+                <a id="navLink" href='../html/viewprojects.html'><h4>View Projects</h4></a>
+                <a id="navLink" href='../html/apply.html'><h4>Apply</h4></a>
                 <a id="startStaking" href='../html/startstaking.html'><h4>Start Staking</h4></a>
             </div>
     </div>
@@ -41,7 +41,7 @@
     <div class='aboutusInfo'>
 
         <div class='aboutusInfoImage'>
-            <img src="../resources/whiteSpace.png" alt="Cool Design">
+            <img id='floatingPerson' src="../resources/floatcflip.png" alt="Floating person in pool">
         </div>
 
         <div class='aboutusInfoContainer'>
@@ -58,7 +58,7 @@
         </div>
 
         <div class='aboutusInfoImage'>
-            <img src="../resources/whiteSpace.png" alt="Cool Design">
+            <img id='swimmingPerson' src="../resources/swimc.png" alt="Swimming person in pool">
         </div>
         
     </div>
@@ -70,28 +70,28 @@
             <h2>Meet the Hosts</h2>
 
             <div class='hostProfiles'>
-                <div class='hostProfile1'>
-                    <div class='hostProfile1Image'><img src='../resources/PoYpfp.png'></div>
-                    <h3>HOST NAME 1</h3>
-                    <p>Short description</p>
+                <div class='hostProfileBio'>
+                    <img class='hostProfilesImage' src='../resources/PoYpfp.png'>
+                    <h3>KIETH PATERSON</h3>
+                    <p>Highschool Teacher & Project Overseer</p>
                 </div>
 
-                <div class='hostProfile2'>
-                    <div class='hostProfile2Image'><img src='../resources/PoYpfp.png'></div>
-                    <h3>HOST NAME 2</h3>
-                    <p>Short description</p>
+                <div class='hostProfileBio'>
+                    <img class='hostProfilesImage' src='../resources/PoYpfp.png'>
+                    <h3>TIA DUROVICH</h3>
+                    <p>Stake Pool & Website Developer</p>
                 </div>
 
-                <div class='hostProfile3'>
-                    <div class='hostProfile3Image'><img src='../resources/PoYpfp.png'></div>
-                    <h3>HOST NAME 3</h3>
-                    <p>Short description</p>
+                <div class='hostProfileBio'>
+                    <img class='hostProfilesImage' src='../resources/PoYpfp.png'>
+                    <h3>JEUNE MILFORD</h3>
+                    <p>Marketing Manager</p>
                 </div>
 
-                <div class='hostProfile4'>
-                    <div class='hostProfile4Image'><img src='../resources/PoYpfp.png'></div>
-                    <h3>HOST NAME 4</h3>
-                    <p>Short description</p>
+                <div class='hostProfileBio'>
+                    <img class='hostProfilesImage' src='../resources/PoYpfp.png'>
+                    <h3>KAHN GRÜGER STORZ</h3>
+                    <p>NFT Developer</p>
                 </div>
             </div>
 
@@ -113,22 +113,22 @@
 
             <div class='socialMedia'>
                 <a href='https://twitter.com/PoolofYouth' target='_blank'>
-                    <img id='twitter' src='../resources/twitter.png'>
+                    <img id='socials' src='../resources/twitter.png'>
                 </a>
                 <a href='https://www.youtube.com/channel/UCupfVA0hngPwtJUihwD7ihg' target='_blank'>
-                    <img id='youtube' src='../resources/youtube.png'>
+                    <img id='socials' src='../resources/youtube.png'>
                 </a>
                 <a href='mailto:poolofyouth@hotmail.com' target='_blank'>
-                    <img id='email' src='../resources/email.png'>
+                    <img id='socials' src='../resources/email.png'>
                 </a>
             </div>
         </div>
 
         <div class='footerLinks'>
-            <a id="footerAboutUs" href='../html/aboutus.html'><h4>About Us</h4></a>
-            <a id="footerViewProjects" href='../html/viewprojects.html'><h4>View Projects</h4></a>
-            <a id="footerApply" href='../html/apply.html'><h4>Apply</h4></a>
-            <a id="footerStartStaking" href='../html/startstaking.html'><h4>Start Staking</h4></a>
+            <a href='../html/aboutus.html'><h4>About Us</h4></a>
+            <a href='../html/viewprojects.html'><h4>View Projects</h4></a>
+            <a href='../html/apply.html'><h4>Apply</h4></a>
+            <a href='../html/startstaking.html'><h4>Start Staking</h4></a>
 
         </div>
     </div>
