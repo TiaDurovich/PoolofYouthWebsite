@@ -1,10 +1,3 @@
-html {
-  font-size: 18px;
-}
-
-body {
-  margin: 0;
-}
 
 /* OUR VISION SECTION*/
 .ourVision {
@@ -75,7 +68,6 @@ padding-right: 10vw;
 
 
 /*YOUTH PROJECTS SECTION*/
-
 .youthProjects {
   display: flex;
   flex-direction: row;
@@ -83,7 +75,7 @@ padding-right: 10vw;
   justify-content: center;
 
  
-  width: 100%;
+  width: 100vw;
   position: relative;
   height: 55.5vw; 
  
@@ -167,7 +159,7 @@ padding-right: 10vw;
  align-items: center;
  justify-content: center;
 
- width: 100%;
+ width: 100vw;
  position: relative;
  height: 55.5vw; 
 }

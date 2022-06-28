@@ -2,37 +2,29 @@
 /* APPLICATION INFO*/
 
 .applyInfo {
-  width: 100vw;
-  position: relative;
-  margin-left: -50vw;
-  height: 483px;
-  left: 50%;
- 
    display: flex;
    flex-flow: row;
-   justify-content: center;
    align-items: center;
- 
-   background-color: white;
+   justify-content: center;
+
+   position: relative;
+   height: 40vw; 
+   width: 100vw;
  }
- 
  
  .applyInfoContainer {
    display: flex;
    flex-flow: column;
-   padding: 0vw;
-   margin: 0vw;
    align-items: center;
-   height: 800px;
-   width: 605px;
+   justify-content: center;
+   height: 15vw;
+   width: 40vw;
   }
  
  .applyInfo h2 {
    font-family: 'Roboto';
    font-style: normal;
-   font-weight: 600;
-   font-size: 25px;
-   width: 393px;
+   font-size: 1.8vw;
    
    text-align: center;
 
@@ -42,9 +34,7 @@
  .applyInfo h1 {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  width: 393px;
+  font-size: 3vw;
   
   text-align: center;
 
@@ -54,39 +44,29 @@
  #send {
    display: flex;
    flex-flow: row;
-   padding: 0vw;
-   margin: 0vw;
    align-items: center;
-   height: 45px;
-   margin-top: 240px;
-   padding: 0%;
+   justify-content: center;
+   height: 3vw;
  }
 
  #project {
   display: flex;
   flex-flow: row;
-  padding: 0vw;
-  margin: 0vw;
   align-items: center;
-  height: 45px;
-  margin: 0%;
-  padding: 0%;
+  justify-content: center;
+  height: 3vw;
  }
  
  .applyInfo p {
   display: flex;
   flex-flow: row;
-  padding: 0vw;
-  margin: 0vw;
   align-items: center;
    
    font-family: 'Roboto';
    font-style: normal;
-   font-weight: 400;
-   font-size: 15px;
-   line-height: 38px;
+   font-size: 1vw;
+   line-height: 2vw;
    text-align: center;
-   margin-top: 25px;
    
    color: #1A5D5F;
  }
