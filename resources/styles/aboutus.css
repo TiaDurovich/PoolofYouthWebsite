@@ -124,7 +124,7 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    width: 100%;
+    width: 75%;
     padding-top: 5%;
     padding-bottom: 5%;
   }
@@ -135,8 +135,10 @@ body {
       align-items: center;
       justify-content: center;
 
-      padding-right: 2rem;
-      padding-left: 2rem;
+      width: 30%;
+      height: 30%;
+      padding-left: 4%;
+      padding-right: 4%;
    }
 
     .hostProfiles h3 {
