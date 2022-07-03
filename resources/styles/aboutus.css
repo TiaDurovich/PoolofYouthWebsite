@@ -133,6 +133,7 @@ body {
       display: flex;
       flex-flow: column;
       align-items: center;
+      justify-content: center;
 
       padding-right: 2rem;
       padding-left: 2rem;
