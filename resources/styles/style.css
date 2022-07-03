@@ -1,9 +1,11 @@
 
 /* OUR VISION SECTION*/
+
 .ourVision {
  display: flex;
  flex-flow: row;
  align-items: center;
+ justify-content: center;
 
  position: relative;
  height: 46vw; 
@@ -49,20 +51,17 @@ color: #1A5D5F;
   justify-content: bottom;
   align-items: end;
   width: 75%;
-  height: 46vw;
-  padding-top: 5%;
-  padding-bottom: 20%;
+  height: 24vw;
 }
 
 #sittingPerson{
 width: 40%;
-height: 40%;
-padding-bottom: 10%;
+height: 60%;
 }
 
 #floatingPerson {
 width: 40%;
-height: 40%;
+height: 60%;
 padding-right: 10vw;
 }
 
