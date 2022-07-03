@@ -166,22 +166,10 @@ padding-right: 10vw;
  height: 55.5vw; 
 }
 
-.joinThePoolPartyImage {
-  display: flex;
-  flex-flow: column;
-  width: auto;
-  padding: 0%;
-}
-
-.joinThePoolParty img {
-  width: 10%;
-  padding: 10px;
-}
-
 .joinThePoolPartyContainer {
   display: flex;
   flex-flow: column;
-  width: 60%;
+  width: 50%;
   padding: 0%;
 }
 
