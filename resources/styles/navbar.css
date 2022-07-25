@@ -4,6 +4,10 @@ html {
   font-size: 18px;
 }
 
+#navLink:hover {
+  color: #167D7F;
+}
+
 .navbar { 
    display: flex;
    flex-flow: row;
@@ -74,6 +78,9 @@ html {
   color: white;
 }
 
+#startStaking:hover {
+  background-color: #167D7F;
+}
 
 
  

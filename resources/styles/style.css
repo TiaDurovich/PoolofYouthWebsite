@@ -135,7 +135,7 @@
    font-size: 1.5vw;
  }
  
- #viewMore{
+ #apply{
    display: flex;
    flex-flow: row;
    align-items: center;
@@ -149,6 +149,14 @@
  
    color: #1A5D5F;
  }
+
+ .youthProjectsButton:hover {
+  background-color: #167D7F;
+}
+
+  .youthProjectsButton h4:hover {
+  color: #FFFFFF;
+}
  
  
  

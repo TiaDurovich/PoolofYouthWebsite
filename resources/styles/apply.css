@@ -2,72 +2,72 @@
 /* APPLICATION INFO*/
 
 .applyInfo {
-   display: flex;
-   flex-flow: row;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
 
-   position: relative;
-   height: 40vw; 
-   width: 100vw;
- }
- 
- .applyInfoContainer {
-   display: flex;
-   flex-flow: column;
-   align-items: center;
-   justify-content: center;
-   height: 15vw;
-   width: 40vw;
-  }
- 
- .applyInfo h2 {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-size: 1.8vw;
-   
-   text-align: center;
+  position: relative;
+  height: 40vw; 
+  width: 100vw;
+}
 
-   color: #ED99A0;
+.applyInfoContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 15vw;
+  width: 40vw;
  }
 
- .applyInfo h1 {
+.applyInfo h2 {
   font-family: 'Roboto';
   font-style: normal;
-  font-size: 3vw;
+  font-size: 1.8vw;
   
   text-align: center;
 
-  color: #167D7F;
+  color: #ED99A0;
 }
 
- #send {
-   display: flex;
-   flex-flow: row;
-   align-items: center;
-   justify-content: center;
-   height: 3vw;
- }
+.applyInfo h1 {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-size: 3vw;
+ 
+ text-align: center;
 
- #project {
+ color: #167D7F;
+}
+
+#send {
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: center;
   height: 3vw;
- }
- 
- .applyInfo p {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-   
-   font-family: 'Roboto';
-   font-style: normal;
-   font-size: 1vw;
-   line-height: 2vw;
-   text-align: center;
-   
-   color: #1A5D5F;
- }
- 
+}
+
+#project {
+ display: flex;
+ flex-flow: row;
+ align-items: center;
+ justify-content: center;
+ height: 3vw;
+}
+
+.applyInfo p {
+ display: flex;
+ flex-flow: row;
+ align-items: center;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 1vw;
+  line-height: 2vw;
+  text-align: center;
+  
+  color: #1A5D5F;
+}
+

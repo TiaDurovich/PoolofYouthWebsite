@@ -73,6 +73,10 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   }
 
+  #socials:hover {
+    box-shadow: 4px 16px 16px rgba(0, 0, 0, 0.3);
+  }
+
   /*LINKS*/
   .footerLinks {
     display: flex;
@@ -95,5 +99,9 @@ body {
     color: #FFFFFF;
     text-decoration-line: underline;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .footerLinks h4:hover {
+    box-shadow: 4px 16px 16px rgba(0, 0, 0, 0.3);
   }
 
