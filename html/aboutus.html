@@ -41,16 +41,17 @@
             </div>
     </div>
 
-    <!--NFT BANNER
+    <!--NFT BANNER-->
+
     <div class='NFTBanner'>
 
-        <p>Help us fund our stake pool!</p>
+        <p>Help fund our stake pool!</p>
 
         <h4>LIMITED EDITION NFTS >>></h4>
 
-        <img src="https://pro.nft-maker.io/images/buttons/paybutton_1_1.svg" onclick="javascript:openPaymentWindow()">
+        <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_2.svg" onclick="javascript:openPaymentWindow()">
 
-    </div> -->
+    </div> 
 
     <!--ABOUTUS INFO-->
     <div class='aboutusInfo'>
@@ -118,16 +119,17 @@
 
     </div>
 
-    <!--NFT BANNER
-    <div class='NFTBanner'>
+    <!--NFT BANNER-->
 
-        <p>Help us fund our stake pool!</p>
+    <div class='NFTBanner2'>
+
+        <p>Help fund our stake pool!</p>
 
         <h4>LIMITED EDITION NFTS >>></h4>
 
-        <img src="https://pro.nft-maker.io/images/buttons/paybutton_1_1.svg" onclick="javascript:openPaymentWindow()">
+        <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_2.svg" onclick="javascript:openPaymentWindow()">
 
-    </div> -->
+    </div> 
     
     <!--FOOTER-->
     <div class='footer'>
@@ -164,35 +166,35 @@
 
     </body>
 
-    <!-- <script type="text/javascript">
-    function openPaymentWindow() {
-        const paymentUrl = "https://payment.nft-maker.io/?p=d15171caead946a0bef7296ad47ae902&c=1";
-
-        // Specify the popup width and height
-        const popupWidth = 500;
-        const popupHeight = 700;
-
-        // Calculate the center of the screen
-        const left = window.top.outerWidth / 2 + window.top.screenX - ( popupWidth / 2);
-        const top = window.top.outerHeight / 2 + window.top.screenY - ( popupHeight / 2);
-
-        const popup =  window.open(paymentUrl, "NFT-MAKER PRO Payment Gateway",  `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`);
-
-        // Show dim background
-        document.body.style = "background: rgba(0, 0, 0, 0.5)";
-
-        // Continuously check whether the popup has been closed
-        const backgroundCheck = setInterval(function () {
-            if(popup.closed) {
-                clearInterval(backgroundCheck);
-
-                console.log("Popup closed");
-
-                // Remove dim background
-                document.body.style = "";
-            }
-        }, 1000);
-    }
-</script> -->
+    <script type="text/javascript">
+        function openPaymentWindow() {
+            const paymentUrl = "https://pay.nmkr.io/?p=f6118a79082045e98672e31ec22ee8e4&c=1";
+    
+            // Specify the popup width and height
+            const popupWidth = 500;
+            const popupHeight = 700;
+    
+            // Calculate the center of the screen
+            const left = window.top.outerWidth / 2 + window.top.screenX - ( popupWidth / 2);
+            const top = window.top.outerHeight / 2 + window.top.screenY - ( popupHeight / 2);
+    
+            const popup =  window.open(paymentUrl, "NFT-MAKER PRO Payment Gateway",  `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`);
+    
+            // Show dim background
+            document.body.style = "background: rgba(0, 0, 0, 0.5)";
+    
+            // Continuously check whether the popup has been closed
+            const backgroundCheck = setInterval(function () {
+                if(popup.closed) {
+                    clearInterval(backgroundCheck);
+    
+                    console.log("Popup closed");
+    
+                    // Remove dim background
+                    document.body.style = "";
+                }
+            }, 1000);
+        }
+    </script>
 
 </html>
