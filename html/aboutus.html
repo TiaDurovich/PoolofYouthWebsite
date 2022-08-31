@@ -27,28 +27,29 @@
     <!--NAVBAR-->
     <div class="navbar">
 
+        <!--NAVBAR POY LOGO-->
         <a href='../index.html'>
             <img src="../resources/PoYLogoAndTitle2.png">
         </a>
-            
         
+        <!--NAVBAR SUBPAGE LINKS-->
+        <div class='navbarLinks'>
+            <a id="navLink" href='../html/aboutus.html'><h4>About Us</h4></a>
+            <a id="navLink" href='../html/viewprojects.html'><h4>View Projects</h4></a>
+            <a id="navLink" href='../html/apply.html'><h4>Apply</h4></a>
+            <a id="startStaking" href='../html/startstaking.html'><h4>Start Staking</h4></a>
+        </div>
 
-            <div class='navbarLinks'>
-                <a id="navLink" href='../html/aboutus.html'><h4>About Us</h4></a>
-                <a id="navLink" href='../html/viewprojects.html'><h4>View Projects</h4></a>
-                <a id="navLink" href='../html/apply.html'><h4>Apply</h4></a>
-                <a id="startStaking" href='../html/startstaking.html'><h4>Start Staking</h4></a>
-            </div>
     </div>
 
     <!--NFT BANNER-->
-
     <div class='NFTBanner'>
 
         <p>Be the FIRST to take the plunge!</p>
 
         <h4>LIMITED EDITION NFTS >>></h4>
 
+        <!--NFT NMKR BUTTON-->
         <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_2.svg" onclick="javascript:openPaymentWindow()">
 
     </div> 
@@ -59,13 +60,15 @@
         <div class='aboutusInfoImage'>
             <img id='floatingPerson' src="../resources/floatcflip.png" alt="Floating person in pool">
         </div>
-
+    
+        <!--ABOUTUS INFO TITLE-->
         <div class='aboutusInfoContainer'>
             <div class='title'>
                 <div id='about'><h1>About</h1></div>
                 <div id='pool'><h1>Pool of Youth</h1></div>
             </div>
 
+            <!--ABOUTUS INFO PARAGRAPH-->
             <p>We are a team of three Year 13 high school students from Marist College, 
                 New Zealand. Mr Paterson, our Digital Technology teacher, introduced us 
                 to the world of blockchain and has been guiding us through various exciting 
@@ -126,7 +129,8 @@
         <p>Be the FIRST to take the plunge!</p>
 
         <h4>LIMITED EDITION NFTS >>></h4>
-
+        
+        <!--NFT NMKR BUTTON-->
         <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_2.svg" onclick="javascript:openPaymentWindow()">
 
     </div> 
@@ -166,6 +170,7 @@
 
     </body>
 
+    <!--NFT NMKR BUTTON SCRIPT-->
     <script type="text/javascript">
         function openPaymentWindow() {
             const paymentUrl = "https://pay.nmkr.io/?p=f6118a79082045e98672e31ec22ee8e4&c=1";

@@ -1,6 +1,5 @@
 
 /* OUR VISION SECTION*/
-
 .ourVision {
   display: flex;
   flex-flow: row;
@@ -162,7 +161,6 @@
  
  
  /* JOIN THE POOL PARTY SECTION */
- 
  .joinThePoolParty {
    display: flex;
   flex-flow: row;

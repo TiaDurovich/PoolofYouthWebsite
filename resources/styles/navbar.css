@@ -1,5 +1,4 @@
 /* NAVBAR */
-
 html {
   font-size: 18px;
 }
@@ -78,6 +77,7 @@ html {
   color: white;
 }
 
+/* Creates the hover effect on the 'Start Staking' button */
 #startStaking:hover {
   background-color: #167D7F;
 }

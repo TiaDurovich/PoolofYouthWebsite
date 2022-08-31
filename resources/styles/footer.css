@@ -26,7 +26,7 @@ body {
 
 
 /*LEFT FOOTER EMPTY PLACEHOLDER
-  allows for even spacing of content*/
+allows for even spacing of content*/
   .footerEmpty {
     display: flex;
     flex-flow: column;
@@ -73,6 +73,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   }
 
+  /* Creates the hover effect on the social media buttons */
   #socials:hover {
     box-shadow: 4px 16px 16px rgba(0, 0, 0, 0.3);
   }
@@ -101,6 +102,7 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   }
 
+  /* Creates the hover effect on the footer links */
   .footerLinks h4:hover {
     box-shadow: 4px 16px 16px rgba(0, 0, 0, 0.3);
   }
